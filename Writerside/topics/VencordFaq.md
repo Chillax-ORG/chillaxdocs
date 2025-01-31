@@ -16,6 +16,8 @@
 
 ### 1. How to change the background/background image of CHILLAX?
 
+<secondary-label ref="updated"/>
+
 The steps are first `settings`, then go to the `VENCORD` Section and then `Themes`.
 Finally, click `Edit Quick CSS` which should open the integrated
 [Monaco](https://microsoft.github.io/monaco-editor/) (*It's already there no need
@@ -106,6 +108,8 @@ please adjust the CSS variable `--bg-opacity`.
 {style="note"}
 
 ### 2. How to change/use another font(s)?
+
+<secondary-label ref="updated"/>
 
 First, make sure that the font you're trying to
 use is already hosted somewhere if it is not already.
@@ -210,6 +214,7 @@ That's it.
 <primary-label ref="advanced-users-only"/>
 <secondary-label ref="experimental"/>
 <secondary-label ref="wip"/>
+<secondary-label ref="updated"/>
 
 > **We recommend you to not go for that**
 
@@ -233,13 +238,13 @@ However, if you've decided to make up your mind, then
   basically that region a bit darker.
 
   ```css
-    .container__037ed {
-          background-color: rgba(255, 255, 255, 0) !important; /* Semi-transparent white for light theme */
-          /* Or use this for dark theme: background-color: rgba(0, 0, 0, 0.1); */
-          backdrop-filter: blur(1px) !important; /*Blur the background*/
-          border-radius: 10px; /* Rounded corners */
-          /* Or use this for dark theme: border: 1px solid rgba(0, 0, 0, 0.2); */
-          box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37) !important; /* Optional: Add a box shadow for depth */
+    .container_c48ade {
+        background-color: rgba(255, 255, 255, 0) !important; /* Semi-transparent white for light theme */
+        /* Or use this for dark theme: background-color: rgba(0, 0, 0, 0.1); */
+        backdrop-filter: blur(1px) !important; /*Blur the background*/
+        border-radius: 10px; /* Rounded corners */
+        /* Or use this for dark theme: border: 1px solid rgba(0, 0, 0, 0.2); */
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37) !important; /* Optional: Add a box shadow for depth */
     }
   ```
 
@@ -268,6 +273,8 @@ However, if you've decided to make up your mind, then
 
 ### 8. CHILLAX is laggy or slow, very slow, any fix?
 
+<secondary-label ref="updated"/>
+
 * Make sure that **Hardware Acceleration** is on.
   If not, then turn it on.
 
@@ -275,14 +282,14 @@ However, if you've decided to make up your mind, then
 
 #### *Almost 99% of the time this is the reason behind lag.*
 
-If you're on a system that is not older than eight or nine years,
+If you're **not** on a very low-end system with limited hardware acceleration support,
 the theme should work fine without any lag.
 
 However, as a last resort you can
 
 * The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
 
-* [Uncomment](https://developer.mozilla.org/en-US/docs/Web/CSS/Comments) line `37` different/or which
+* [Uncomment](https://developer.mozilla.org/en-US/docs/Web/CSS/Comments) line `41` different/or which
   says `/*@import url("https://warrayquipsome.github.io/Chillax/Addons/SimpleLessLag.css");*/`
   See the below screenshots:
 

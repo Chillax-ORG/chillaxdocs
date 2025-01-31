@@ -18,6 +18,10 @@
         Newly Added
     </secondary-label>
 
+    <secondary-label id="updated" name="Updated" color="tangerine">
+        Updated
+    </secondary-label>
+
     <primary-label id="incomplete" short-name="I" name="Incomplete" color="red">
         This topic is yet to be written. PRs are always welcome :)
     </primary-label>
