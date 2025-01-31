@@ -29,8 +29,8 @@ See the below-attached screenshots:
 
 3. <img src="monaco_editor.png" alt="Monaco editor" border-effect="rounded"/>
 
-Now to go to line number `46` (*at the time of writing, the line number
-is 46 which in a later version might change*) or where the variable `--wallpaper`
+Now to go to line number `50` (*at the time of writing, the line number
+is 50 which in a later version might change*) or where the variable `--wallpaper`
 defined and change the url that is within the single quote `""`
 to the **wallpaper**/**gif** **cdn url** that you want to set.
 
@@ -48,7 +48,15 @@ Now your favourite background image/gif should be applied.
 Moreover, if you need to control the opacity of the background,
 please adjust the CSS variable `--bg-opacity`.
 
-> **Note**: If you are using discord CDN, they expire after some time.
+> If you’re getting an image from the web, make sure that it is a 
+> image CDN link and **not webpage itself**.
+> 
+
+{style="warning"}
+
+
+
+> **Note**: If you’re using discord CDN, they expire after some time.
 > For this the background may suddenly become black, or it might start
 > blinking or shaking.
 > In such cases fetch a new link or download the image and host it
@@ -85,7 +93,7 @@ please adjust the CSS variable `--bg-opacity`.
 </procedure>
 
 > **Note**: If the link is not working or the image is not showing up,
-> then please make sure that the link that you are using is the RAW GitHub link.
+> then please make sure that the link that you're using is the RAW GitHub link.
 > A typical raw GitHub link would look like `https://raw.githubusercontent.com/{username}/{repositoryname}/{branchname}/{path_to_your_file}`.
 > Notice that the link starts with `https://raw.githubusercontent.com` and then it will be
 > followed by a `\` and then your `username` etc.
@@ -96,10 +104,10 @@ please adjust the CSS variable `--bg-opacity`.
 
 ### 2. How to change/use another font(s)?
 
-First, make sure that the font you are trying to
+First, make sure that the font you're trying to
 use is already hosted somewhere if it is not already.
 Most of the time you will be using [google fonts](https://fonts.google.com/).
-From there, choose the font you are looking for and adjust all the settings
+From there, choose the font you're looking for and adjust all the settings
 and everything (*font weights, size, etc.*) and then copy the CSS import url.
 See the below screenshots:
 
@@ -125,7 +133,7 @@ See the below screenshots:
     * Optionally adjust the `--font-size` if you need to.
 
 > If the font is not working correctly, then double-check
-> the font name that you have provided in Step 8.
+> the font name that you've provided in Step 8.
 > Please make sure that the font name is the same as shown by Google Font
 > during Step 5 and 6 (the font name that was shown to you when you followed Steps 5 and 6).
 
@@ -204,7 +212,7 @@ That's it.
 
 {style="warning"}
 
-However, if you have decided to make up your mind, then
+However, if you've decided to make up your mind, then
 
 * Go to <ui-path>Settings > Vencord > Enable Window Transparency</ui-path> and turn it on.
 
@@ -214,7 +222,7 @@ However, if you have decided to make up your mind, then
 * Your window should now be `transparent` or `see through` etc.
 
 * Now you may want to add a bit of blur to make things readable in the `container__037ed`.
-  However, discord uses electron, and we have found it to work differently on different
+  However, discord uses electron, and we've found it to work differently on different
   OS, and the window manager of your OS also plays a vital role here.
   So, the below CSS snippet may or may not work properly (*Translucence is enabled in
   window manager level*).
@@ -253,7 +261,7 @@ However, if you have decided to make up your mind, then
 * After that, find the CSS variable `--group-chat-font` and provide the font name 
   that you like to use within `" "` (double quote).
 
-* Make sure that the font that you are trying to set is available in the theme context.
+* Make sure that the font that you're trying to set is available in the theme context.
 
 ### 8. CHILLAX is laggy or slow, very slow, any fix?
 
@@ -264,7 +272,7 @@ However, if you have decided to make up your mind, then
 
 #### *Almost 99% of the time this is the reason behind lag.*
 
-If you are on a system that is not older than eight or nine years,
+If you're on a system that is not older than eight or nine years,
 the theme should work fine without any lag.
 
 However, as a last resort you can
@@ -359,7 +367,7 @@ Now the friend grid should be similar to the default Discord.
 * Now use/paste the below CSS snippet for the respective mode(*Dark/Light*)
   at the very end of the `Edit Quick CSS`:
 
-> If the below CSS does not work,
+> If the below CSS doesn't work,
 > then please create an [Issue](https://github.com/warrayquipsome/Chillax/issues) or report in
 > the [Support Discord Server](https://discord.gg/DrfX6286kF).
 
@@ -519,4 +527,4 @@ Join our support
 <format color="#ffA36b">
         [Discord Server](https://discord.com/invite/DrfX6286kF)
 </format>
-and ask for help and do not be <control>shy</control>.
+and ask for help and don't be <control>shy</control>.
