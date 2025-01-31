@@ -308,6 +308,8 @@ This should make Discord a bit more performant, reducing the lag by a bit.
 
 ### 9. How to make the member list always stay visible instead of on hover?
 
+<secondary-label ref="updated"/>
+
 This is basically an addon; to remove it:
 
 * The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
