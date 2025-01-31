@@ -49,7 +49,7 @@ Moreover, if you need to control the opacity of the background,
 please adjust the CSS variable `--bg-opacity`.
 
 > If you’re getting an image from the web, make sure that it is a 
-> image CDN link and **not webpage itself**.
+> image CDN link and **not the webpage itself**.
 > Best way to get the image CDN link from the web is to
 > right-click on the right and then select `Open image in new tab` option
 > from your browser.
