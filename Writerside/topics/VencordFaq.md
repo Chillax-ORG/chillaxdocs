@@ -369,14 +369,18 @@ transparent images.
 
 ### 13. How to get rid of the Friend Grid?
 
+<secondary-label ref="updated"/>
+
 * The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
 
-* **Remove** or **comment out** the line (*currently line number `34` and maybe different in your case*) containing
+* **Remove** or **comment out** the line (*currently line number `36` and maybe different in your case*) containing
   `@import url("https://warrayquipsome.github.io/Chillax/Addons/FriendGrid.css");`.
 
 Now the friend grid should be similar to the default Discord.
 
 ### 14. How to get rid of the below-attached ugly thing?
+
+<secondary-label ref="updated"/>
 
 <img src="ugly_writing_white_bg.png" alt="Apology text" border-effect="rounded"/>
 
@@ -395,7 +399,7 @@ Now the friend grid should be similar to the default Discord.
     <tab id="ugly-thing-dark-mode" title="Dark Mode">
         <code-block lang="CSS"> 
             /* hide message in the sidebar when using dark mode */
-            html.theme-dark .sidebar_a4d4d9 .content_eed6a8:after {
+            html.theme-dark .sidebar_c48ade .content__99f8c:after {
                 color: rgba(255, 255, 255, 0) !important;
                 text-shadow: none !important;
             }
@@ -404,7 +408,7 @@ Now the friend grid should be similar to the default Discord.
     <tab id="ugly-thing-light-mode" title="Light Mode">
         <code-block lang="CSS"> 
             /* hide message in the sidebar when using light mode */
-            html.theme-light .sidebar_a4d4d9 .content_eed6a8:after {
+            html.theme-light .sidebar_c48ade .content__99f8c:after {
                 color: rgba(255, 255, 255, 0) !important;
                 text-shadow: none !important;
             }
