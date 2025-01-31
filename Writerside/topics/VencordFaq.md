@@ -446,9 +446,11 @@ Before applying the theme:
 
 ### 17. How to get rid of the mobile icon beside the avatar?
 
+<secondary-label ref="updated"/>
+
 * The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
 
-* Now go to the line `95` or find the line that says `--rs-phone-visible: block;` and
+* Now go to the line `101` or find the line that says `--rs-phone-visible: block;` and
   change this line to the below line:
 
     ```css
@@ -457,7 +459,9 @@ Before applying the theme:
 
 * Now mobile icon or phone icon should be gone.
 
-### 18. How to change the color of urls/links?
+### 18. How to change the color of every urls and links in discord?
+
+<secondary-label ref="newly-added"/>
 
 * The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
 
