@@ -459,7 +459,19 @@ Before applying the theme:
 
 * Now mobile icon or phone icon should be gone.
 
-### 18. How to change the color of every urls and links in discord?
+### 18. How to get back the default discord color for urls and links?
+
+<secondary-label ref="newly-added"/>
+
+* The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
+
+* **Remove** or **comment out** the line (*currently line number `37` and maybe different in your case*) containing
+  `@import url("https://warrayquipsome.github.io/Chillax/Addons/ColoredLinks.css");`.
+
+Now the urls and links should have the default discord like styles and colors.
+
+
+### 19. How to change the color of every urls and links in discord?
 
 <secondary-label ref="newly-added"/>
 
@@ -474,7 +486,7 @@ Before applying the theme:
 }
 ```
 
-### 19. How to change the input placeholder value from "*Life is so much easier when you just take a moment to chill*" to something that I want?
+### 20. How to change the input placeholder value from "*Life is so much easier when you just take a moment to chill*" to something that I want?
 
 * The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
 
@@ -488,7 +500,7 @@ Before applying the theme:
 {style="note"}
 
 
-### 20. How to change the Avatar Only Member list's rounder corner/border radius?
+### 21. How to change the Avatar Only Member list's rounder corner/border radius?
 
 * The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
 
@@ -501,7 +513,7 @@ Before applying the theme:
 {style="note"}
 
 
-### 21. How to change the typing indicator text?
+### 22. How to change the typing indicator text?
 
 * The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
 
@@ -515,7 +527,7 @@ Before applying the theme:
 
 {style="tip"} 
 
-### 22. How to get back the scroll wheel/scroller/scrollbar in CHILLAX?
+### 23. How to get back the scroll wheel/scroller/scrollbar in CHILLAX?
 
 * The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
 
@@ -529,9 +541,9 @@ Before applying the theme:
 {style="note"}
 
 
-### 23. How to make the Mute and Headphone icon always stays visible even when not hovering over user control?
+### 24. How to make the `Mute` and `Headphone` icon always stay visible even when not hovering over user control?
 
-<secondary-label ref="newly-added"/>
+<secondary-label ref="updated"/>
 
 * The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
 
@@ -540,7 +552,7 @@ Before applying the theme:
 ```css
 /* Mute and Headphone icon always stays visible even when not
    hovering over user control */
-.panels_a4d4d9 > .container_b2ca13 .flex_dc333f > :not(:last-child) {
+.panels_c48ade > .container__37e49 .flex__7c0ba > :not(:last-child) {
     opacity: 100% !important;
 }
 ```
