@@ -331,13 +331,15 @@ This is basically an addon; to remove it:
 
 ### 10. How to get back the old emojis?
 
-This is also very similar to the previous [FAQ](#8-chillax-is-laggy-or-slow-very-slow-any-fix).
+<secondary-label ref="updated"/>
+
+This is also very similar to the previous [FAQ](#9-how-to-make-the-member-list-always-stay-visible-instead-of-on-hover).
 This thing is also an addon.
 Remove it to get back default emojis:
 
 * The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
 
-* **Remove** or **comment out** the line (*currently line number `27` and maybe different in your case*) containing
+* **Remove** or **comment out** the line (*currently line number `29` and maybe different in your case*) containing
   `@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Microsoft.css");`.
 
 * Now you should have the old emojis.
