@@ -50,6 +50,9 @@ please adjust the CSS variable `--bg-opacity`.
 
 > If you’re getting an image from the web, make sure that it is a 
 > image CDN link and **not webpage itself**.
+> Best way to get the image CDN link from the web is to
+> right-click on the right and then select `Open image in new tab` option
+> from your browser.
 > 
 
 {style="warning"}
