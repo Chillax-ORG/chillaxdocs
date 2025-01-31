@@ -434,10 +434,10 @@ Before applying the theme:
 
 * Firstly, make sure that there is **no custom** CSS or CSS snippet(s) is/are running.
 
-* Secondly, make sure that no party plugin or any plugins in general related to theming
+* Secondly, make sure that **no third party** plugin or any **plugins** in general related to theming
   are running (*if debugging, disable all plugins for quicker conclusion*).
 
-* Thirdly, `Settings` > `Appearance` is set to either Dark or light mode.
+* Thirdly, `Settings` > `Appearance` is set to either **Dark** or **Light** mode.
 
 * Now apply the Latest version
   of [Chillax](https://raw.githubusercontent.com/warrayquipsome/Chillax/main/chillax.theme.css).
@@ -558,6 +558,17 @@ Now the urls and links should have the default discord like styles and colors.
 ```
 
 * Now the mute and headphone icon should always be visible.
+
+### 25. How to hide annoying elements such as nitro, shop, sticker picker etc. tab?
+
+<secondary-label ref="newly-added"/>
+
+* The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
+
+* [Uncomment](https://developer.mozilla.org/en-US/docs/Web/CSS/Comments) line `43` different/or which
+  says `@import url("https://warrayquipsome.github.io/Chillax/Addons/HideAnnoyingElements.css");`.
+
+Now those annoying tabs and such will disappear.
 
 ## Still Have Question(s)?
 
