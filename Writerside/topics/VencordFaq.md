@@ -346,18 +346,22 @@ Remove it to get back default emojis:
 
 ### 11. How to get rid of the Folder Icons and Make it like the old discord?
 
+<secondary-label ref="updated"/>
+
 * The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
 
-* **Remove** or **comment out** the line (*currently line number `32` and maybe different in your case*) containing
+* **Remove** or **comment out** the line (*currently line number `34` and maybe different in your case*) containing
   `@import url("https://warrayquipsome.github.io/Chillax/Addons/FolderRedesign.css");`.
 
 * Now it should be normal like the old Discord.
 
 ### 12. How to get rid of the Radial Status/Ring around the user profile picture/image?
 
+<secondary-label ref="updated"/>
+
 * The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
 
-* **Remove** or **comment out** the line (*currently line number `33` and maybe different in your case*) containing
+* **Remove** or **comment out** the line (*currently line number `35` and maybe different in your case*) containing
   `@import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");`.
 
 Now, it should be similar to the default discord style with slight drop shadow around the
