@@ -4,6 +4,7 @@
         <algolia-id>VNKPWW3QH4</algolia-id>
         <algolia-index>chillax</algolia-index>
         <algolia-api-key>04b3f007dc0a147ac10abd5c4c419bae</algolia-api-key>
+        <algolia-show-logo>True</algolia-show-logo>
         <!--        <config-search-scopes-provider>https://www.jetbrains.com/</config-search-scopes-provider>-->
         <noindex-content>false</noindex-content>
         <enable-browser-edits>true</enable-browser-edits>
@@ -22,7 +23,7 @@
     <build-profile instance="chillax-docs"/>
     <sitemap priority="0.35" change-frequency="weekly"/>
     <footer>
-        <copyright>2024 Chillax-ORG</copyright>
+        <copyright>2025 Chillax-ORG</copyright>
         <social type="email" href="noor.mohammad.rafee@g.bracu.ac.bd"/>
 <!--        <social type="twitter" href=""/>-->
 <!--        <social type="facebook" href=""/>-->
