@@ -561,7 +561,7 @@ Now the urls and links should have the default discord like styles and colors.
 
 ### 25. How to hide annoying elements such as nitro, shop, sticker picker etc. tab?
 
-<secondary-label ref="newly-added"/>
+<secondary-label ref="updated"/>
 
 * The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
 
@@ -569,6 +569,21 @@ Now the urls and links should have the default discord like styles and colors.
   says `@import url("https://warrayquipsome.github.io/Chillax/Addons/HideAnnoyingElements.css");`.
 
 Now those annoying tabs and such will disappear.
+
+### 26. How to change the spotify progress squid/progress bar GIF to a custom one?
+
+<secondary-label ref="newly-added"/>
+
+
+* The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
+
+* Find the CSS variable `--chillax-spotify-control-squid-gif-url` (_at the time of writing, the line number
+is **134** which in a later version might change_) and change the url/link
+  to your GIF that you are trying to set.
+
+* After that make sure to adjust the `--chillax-spotify-control-squid-width` and
+  `--chillax-spotify-control-squid-height` accordingly if the GIF seems out of place.
+
 
 ## Still Have Question(s)?
 
