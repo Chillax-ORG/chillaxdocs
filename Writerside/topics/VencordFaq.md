@@ -53,7 +53,7 @@ please adjust the CSS variable `--bg-opacity`.
 > If you’re getting an image from the web, make sure that it is a 
 > image CDN link and **not the webpage itself**.
 > Best way to get the image CDN link from the web is to
-> right-click on the right and then select `Open image in new tab` option
+> right-click on the image and then select `Open image in new tab` option
 > from your browser.
 > 
 
@@ -135,7 +135,7 @@ See the below screenshots:
     * Now go to <ui-path> Settings > Themes > Edit Quick CSS</ui-path>.
     * Paste the copied link at the top just like the above screenshot and put the `;` at the end of it.
 8. <img src="font_change_8.png" alt="Change the font name"/>
-    * Now change the `--font-nane` to the name of the font that you have
+    * Now change the `--font-name` to the name of the font that you have
       just imported.
     * Optionally adjust the `--font-size` if you need to.
 
