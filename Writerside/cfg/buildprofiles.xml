@@ -23,14 +23,14 @@
     <build-profile instance="chillax-docs"/>
     <sitemap priority="0.35" change-frequency="weekly"/>
     <footer>
-        <copyright>2025 Chillax-ORG</copyright>
-        <social type="email" href="noor.mohammad.rafee@g.bracu.ac.bd"/>
+        <social type="email" href="inmoresentum@inmoresentum.net"/>
 <!--        <social type="twitter" href=""/>-->
 <!--        <social type="facebook" href=""/>-->
-        <link href="https://discord.com/invite/DrfX6286kF">Discord Community</link>
-        <link href="https://betterdiscord.app/theme/Chillax">Chillax on BetterDiscord</link>
-        <link href="https://github.com/warrayquipsome/Chillax">Chillax Repo</link>
-        <link href="https://github.com/Chillax-ORG">Chillax-ORG</link>
-        <link href="https://github.com/Inmoresentum">Follow Me</link>
+        <social type="discord" href="https://discord.com/invite/DrfX6286kF">Discord Community</social>
+        <social type="blog" href="https://betterdiscord.app/theme/Chillax">Chillax on BetterDiscord</social>
+        <social type="github" href="https://github.com/warrayquipsome/Chillax">Chillax Repo</social>
+        <social type="github" href="https://github.com/Chillax-ORG">Chillax-ORG</social>
+        <social type="bugtracker"  href="https://github.com/Inmoresentum">Follow Me</social>
+        <copyright>2025 Chillax-ORG</copyright>
     </footer>
 </buildprofiles>
