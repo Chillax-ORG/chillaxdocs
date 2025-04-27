@@ -226,7 +226,7 @@ That's it.
 <secondary-label ref="wip"/>
 <secondary-label ref="updated"/>
 
-> **This is currently broken on Vencord
+> **This is currently broken on Vencord**
 
 {style="warning"}
 
