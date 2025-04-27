@@ -4,21 +4,21 @@
 <secondary-label ref="beta"/>
 
 <tldr>
-  <p>Install the CHILLAX theme in your favourite client mod and enjoy!</p>
+  <p>Install the %chillax% theme in your favourite client mod and enjoy!</p>
   <p>Optionally, configure change the css variables to make it look nicer :)</p>
   <img src="chillaxcover.png" alt="Chillax cover art (supports both dark and light mode)"/>
 </tldr>
 
-<procedure title="To use CHILLAX there are mainly two ways:" id="procedure-id">
+<procedure title="To use %chillax% there are mainly two ways:" id="procedure-id">
    <step>Firstly, you can use any client mod like <a href="https://vencord.dev">Vencord</a>
          or <a href="https://betterdiscord.app/">BetterDiscord</a> and then apply/install the theme.
   </step>
    <step>
-      Secondly, you can inject CHILLAX on browser
+      Secondly, you can inject %chillax% on browser
       using any of the CSS injectors
       such as <a href="https://github.com/openstyles/stylus">Stylus</a> etc.
   </step>
-   <p>Congratulation! You now have chillax!</p>
+   <p>Congratulation! You now have %chillax%!</p>
    <p>
      Need more help? Checkout <a href="Installation-guide.md">Installation-guide</a> !
    </p>

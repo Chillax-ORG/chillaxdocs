@@ -7,7 +7,7 @@ switcher-label: Client Mod
 <primary-label ref="stable"/>
 <secondary-label ref="alpha"/>
 
-Welcome to the detailed installation guide of CHILLAX.
+Welcome to the detailed installation guide of %chillax%.
 
 > Before reading this page, select your client mod in the menu at the top of this page.
 
@@ -16,7 +16,7 @@ Welcome to the detailed installation guide of CHILLAX.
 ## Installing C H I L L A X
 
 In this section we will show you how to install everything that is
-necessary to get started with Chillax, as well as give a few starting points
+necessary to get started with %chillax%, as well as give a few starting points
 to customize it to your likings.
 
 ### Installation instructions for BetterDiscord {switcher-key="BetterDiscord"}
@@ -39,7 +39,7 @@ To download the theme in [Better Discord](https://betterdiscord.app)
    <step>
         Go back to Discord and enable the theme and VOILA you did it.
    </step>
-   <p>Congratulation! You now have chillax on <a href="https://betterdiscord.app/">BetterDiscord</a>!</p>
+   <p>Congratulations! You now have %chillax% on <a href="https://betterdiscord.app/">BetterDiscord</a>!</p>
    <tip>
      Need more help? Reach us at <a href="https://discord.com/invite/DrfX6286kF">Discord</a> !
    </tip>

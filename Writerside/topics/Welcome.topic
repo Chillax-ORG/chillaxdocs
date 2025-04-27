@@ -5,7 +5,7 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="Welcome" id="Welcome">
 
-    <section-starting-page><title>C H I L L A X Docs</title>
+    <section-starting-page><title>%chillax% Docs</title>
         <description>A highly customizable discord client mod theme.</description>
         <spotlight>
             <card href="Quick-start-guide.md" badge="computer" summary="Quick guide for C H I L L A X"/>

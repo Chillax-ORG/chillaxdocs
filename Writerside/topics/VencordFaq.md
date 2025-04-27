@@ -9,12 +9,12 @@
 
 <p>
     Before going or reading any further, make sure that you have
-    installed <format color="red">C H I L L A X </format>
+    installed <format color="red">%chillax% </format>
     following the instructions given in
     <a href="Installation-guide.md">Installation Guide</a> for Vencord.
 </p>
 
-### 1. How to change the background/background image of CHILLAX?
+### 1. How to change the background/background image of %chillax%?
 
 <secondary-label ref="updated"/>
 
@@ -102,7 +102,7 @@ please adjust the CSS variable `--bg-opacity`.
 > A typical raw GitHub link would look like `https://raw.githubusercontent.com/{username}/{repositoryname}/{branchname}/{path_to_your_file}`.
 > Notice that the link starts with `https://raw.githubusercontent.com` and then it will be
 > followed by a `\` and then your `username` etc.
-> For instance, here is an example of CHILLAX logo 
+> For instance, here is an example of %chillax% logo 
 > hosted on GitHub `https://raw.githubusercontent.com/Chillax-ORG/Images/main/mainredlogo.png`.
 
 {style="note"}
@@ -216,6 +216,10 @@ That's it.
 <secondary-label ref="wip"/>
 <secondary-label ref="updated"/>
 
+> **This is currently broken on Vencord
+
+{style="warning"}
+
 > **We recommend you to not go for that**
 
 {style="warning"}
@@ -271,7 +275,7 @@ However, if you've decided to make up your mind, then
 
 * Make sure that the font that you're trying to set is available in the theme context.
 
-### 8. CHILLAX is laggy or slow, very slow, any fix?
+### 8. %chillax% is laggy or slow, very slow, any fix?
 
 <secondary-label ref="updated"/>
 
@@ -378,47 +382,8 @@ transparent images.
 
 Now the friend grid should be similar to the default Discord.
 
-### 14. How to get rid of the below-attached ugly thing?
 
-<secondary-label ref="updated"/>
-
-<img src="ugly_writing_white_bg.png" alt="Apology text" border-effect="rounded"/>
-
-* The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
-
-* Now use/paste the below CSS snippet for the respective mode(*Dark/Light*)
-  at the very end of the `Edit Quick CSS`:
-
-> If the below CSS doesn't work,
-> then please create an [Issue](https://github.com/warrayquipsome/Chillax/issues) or report in
-> the [Support Discord Server](https://discord.gg/DrfX6286kF).
-
-{style="tip"}
-
-<tabs>
-    <tab id="ugly-thing-dark-mode" title="Dark Mode">
-        <code-block lang="CSS"> 
-            /* hide message in the sidebar when using dark mode */
-            html.theme-dark .sidebar_c48ade .content__99f8c:after {
-                color: rgba(255, 255, 255, 0) !important;
-                text-shadow: none !important;
-            }
-        </code-block>
-    </tab>
-    <tab id="ugly-thing-light-mode" title="Light Mode">
-        <code-block lang="CSS"> 
-            /* hide message in the sidebar when using light mode */
-            html.theme-light .sidebar_c48ade .content__99f8c:after {
-                color: rgba(255, 255, 255, 0) !important;
-                text-shadow: none !important;
-            }
-        </code-block>
-    </tab>
-</tabs>
-
-* Now it should be a bit better.
-
-### 15. How to use Dark/Light mode in Chillax Theme?
+### 14. How to use Dark/Light mode in %chillax% Theme?
 
 You can enable `Dark` or `Light` mode from the Discord Settings.
 Steps are:
@@ -428,7 +393,7 @@ Steps are:
 * Finally, choose either Light mode or Dark mode based on your preference,
   and Chillax will reflect that.
 
-### 16. After applying the Chillax theme, it looks funny and/or transparent/see through background is missing, what to do?
+### 15. After applying the Chillax theme, it looks funny and/or transparent/see through background is missing, what to do?
 
 Before applying the theme:
 
@@ -442,9 +407,9 @@ Before applying the theme:
 * Now apply the Latest version
   of [Chillax](https://raw.githubusercontent.com/warrayquipsome/Chillax/main/chillax.theme.css).
 
-* Now you should have Chillax with the default look and feel.
+* Now you should have %chillax% with the default look and feel.
 
-### 17. How to get rid of the mobile icon beside the avatar?
+### 16. How to get rid of the mobile icon beside the avatar?
 
 <secondary-label ref="updated"/>
 
@@ -459,7 +424,7 @@ Before applying the theme:
 
 * Now mobile icon or phone icon should be gone.
 
-### 18. How to get back the default discord color for urls and links?
+### 17. How to get back the default discord color for urls and links?
 
 <secondary-label ref="newly-added"/>
 
@@ -471,7 +436,7 @@ Before applying the theme:
 Now the urls and links should have the default discord like styles and colors.
 
 
-### 19. How to change the color of every urls and links in discord?
+### 18. How to change the color of every urls and links in discord?
 
 <secondary-label ref="newly-added"/>
 
@@ -486,7 +451,7 @@ Now the urls and links should have the default discord like styles and colors.
 }
 ```
 
-### 20. How to change the input placeholder value from "*Life is so much easier when you just take a moment to chill*" to something that I want?
+### 19. How to change the input placeholder value from "*Life is so much easier when you just take a moment to chill*" to something that I want?
 
 * The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
 
@@ -500,7 +465,7 @@ Now the urls and links should have the default discord like styles and colors.
 {style="note"}
 
 
-### 21. How to change the Avatar Only Member list's rounder corner/border radius?
+### 20. How to change the Avatar Only Member list's rounder corner/border radius?
 
 * The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
 
@@ -513,7 +478,7 @@ Now the urls and links should have the default discord like styles and colors.
 {style="note"}
 
 
-### 22. How to change the typing indicator text?
+### 21. How to change the typing indicator text?
 
 * The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
 
@@ -527,7 +492,7 @@ Now the urls and links should have the default discord like styles and colors.
 
 {style="tip"} 
 
-### 23. How to get back the scroll wheel/scroller/scrollbar in CHILLAX?
+### 22. How to get back the scroll wheel/scroller/scrollbar in %chillax%?
 
 * The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
 
@@ -541,7 +506,7 @@ Now the urls and links should have the default discord like styles and colors.
 {style="note"}
 
 
-### 24. How to make the `Mute` and `Headphone` icon always stay visible even when not hovering over user control?
+### 23. How to make the `Mute` and `Headphone` icon always stay visible even when not hovering over user control?
 
 <secondary-label ref="updated"/>
 
@@ -559,7 +524,7 @@ Now the urls and links should have the default discord like styles and colors.
 
 * Now the mute and headphone icon should always be visible.
 
-### 25. How to hide annoying elements such as nitro, shop, sticker picker etc. tab?
+### 24. How to hide annoying elements such as nitro, shop, sticker picker etc. tab?
 
 <secondary-label ref="updated"/>
 
@@ -570,7 +535,7 @@ Now the urls and links should have the default discord like styles and colors.
 
 Now those annoying tabs and such will disappear.
 
-### 26. How to change the spotify progress squid/progress bar GIF to a custom one?
+### 25. How to change the spotify progress squid/progress bar GIF to a custom one?
 
 <secondary-label ref="newly-added"/>
 
