@@ -528,7 +528,7 @@ Now the urls and links should have the default discord like styles and colors.
 ```css
 /* Mute and Headphone icon always stays visible even when not
    hovering over user control */
-.panels_c48ade .buttons__37e49:hover > * {
+.panels_c48ade .buttons__37e49 > * {
     opacity: 1 !important;
 }
 ```
