@@ -7,16 +7,26 @@
 
 ### Before starting
 
-<p>
+<p id="quick_css_blank_or_empty">
     Before going or reading any further, make sure that you have
     installed <format color="red">%chillax% </format>
     following the instructions given in
     <a href="Installation-guide.md">Installation Guide</a> for Vencord.
+    The rest of documentation is written in regards with our recommended
+    installation method.
+    However, if you are using a different method such as downloading
+    it from <a href="https://betterdiscord.app/theme/Chillax">BetterDiscord website</a>
+    and then enabling it via theme then
+    you should therefore open the theme folder
+    and then open <strong>chillax.theme.css</strong> file
+    using your preferred text editor
+    (<i>few suggestions are <a href="https://code.visualstudio.com/">VSCode</a>, Notepad, etc.</i>)
+    and edit in accordance with the below instructions.
 </p>
 
 ### 1. How to change the background/background image of %chillax%?
 
-<secondary-label ref="updated"/>
+[//]: # (<secondary-label ref="updated"/>)
 
 The steps are first `settings`, then go to the `VENCORD` Section and then `Themes`.
 Finally, click `Edit Quick CSS` which should open the integrated
@@ -36,9 +46,9 @@ is 50 which in a later version might change*) or where the variable `--wallpaper
 defined and change the url that is within the single quote `""`
 to the **wallpaper**/**gif** **cdn url** that you want to set.
 
-> After opening the `Edit Quick CSS` it is all blank?
-> Please check out the detailed installation instructions on
-> how to install C H I L L A X the recommended way.
+> After opening the `Edit Quick CSS` it is all blank or empty?
+> Please check out the detailed [installation instructions](Installation-guide.md) on
+> how to install %chillax% the recommended way or follow [this reference](#before-starting).
 
 {style="tip"}
 
@@ -109,7 +119,7 @@ please adjust the CSS variable `--bg-opacity`.
 
 ### 2. How to change/use another font(s)?
 
-<secondary-label ref="updated"/>
+[//]: # (<secondary-label ref="updated"/>)
 
 First, make sure that the font you're trying to
 use is already hosted somewhere if it is not already.
@@ -312,7 +322,7 @@ This should make Discord a bit more performant, reducing the lag by a bit.
 
 ### 9. How to make the member list always stay visible instead of on hover?
 
-<secondary-label ref="updated"/>
+[//]: # (<secondary-label ref="updated"/>)
 
 This is basically an addon; to remove it:
 
@@ -335,7 +345,7 @@ This is basically an addon; to remove it:
 
 ### 10. How to get back the old emojis?
 
-<secondary-label ref="updated"/>
+[//]: # (<secondary-label ref="updated"/>)
 
 This is also very similar to the previous [FAQ](#9-how-to-make-the-member-list-always-stay-visible-instead-of-on-hover).
 This thing is also an addon.
@@ -350,7 +360,7 @@ Remove it to get back default emojis:
 
 ### 11. How to get rid of the Folder Icons and Make it like the old discord?
 
-<secondary-label ref="updated"/>
+[//]: # (<secondary-label ref="updated"/>)
 
 * The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
 
@@ -361,7 +371,7 @@ Remove it to get back default emojis:
 
 ### 12. How to get rid of the Radial Status/Ring around the user profile picture/image?
 
-<secondary-label ref="updated"/>
+[//]: # (<secondary-label ref="updated"/>)
 
 * The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
 
@@ -373,7 +383,7 @@ transparent images.
 
 ### 13. How to get rid of the Friend Grid?
 
-<secondary-label ref="updated"/>
+[//]: # (<secondary-label ref="updated"/>)
 
 * The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
 
@@ -405,13 +415,14 @@ Before applying the theme:
 * Thirdly, `Settings` > `Appearance` is set to either **Dark** or **Light** mode.
 
 * Now apply the Latest version
-  of [Chillax](https://raw.githubusercontent.com/warrayquipsome/Chillax/main/chillax.theme.css).
+  of [Chillax](https://raw.githubusercontent.com/warrayquipsome/Chillax/main/chillax.theme.css)
+  which is currently %current_version%.
 
 * Now you should have %chillax% with the default look and feel.
 
 ### 16. How to get rid of the mobile icon beside the avatar?
 
-<secondary-label ref="updated"/>
+[//]: # (<secondary-label ref="updated"/>)
 
 * The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
 
