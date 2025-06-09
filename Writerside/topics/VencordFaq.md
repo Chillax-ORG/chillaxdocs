@@ -46,6 +46,15 @@ is 50 which in a later version might change*) or where the variable `--wallpaper
 defined and change the url that is within the single quote `""`
 to the **wallpaper**/**gif** **cdn url** that you want to set.
 
+> Make sure that the **wallpaper's**/**gif's** **cdn url**
+> is from [imgur](https://imgur.com/).
+> If imgur is not available in your region or the background is from
+> a different url/domain, then, please download the image and host it
+> GitHub and utilize the GitHub `raw` url.
+> For the above follow this [guide](#github-image-hosting-process).
+
+{style="warning"}
+
 > After opening the `Edit Quick CSS` it is all blank or empty?
 > Please check out the detailed [installation instructions](Installation-guide.md) on
 > how to install %chillax% the recommended way or follow [this reference](#before-starting).
@@ -62,6 +71,8 @@ please adjust the CSS variable `--bg-opacity`.
 
 > If you’re getting an image from the web, make sure that it is a 
 > image CDN link and **not the webpage itself**.
+> Furthermore, make sure that it is from one of the allowlisted domains
+> in Vencord (i.e., imgur, GitHub, GitLab).
 > Best way to get the image CDN link from the web is to
 > right-click on the image and then select `Open image in new tab` option
 > from your browser.
@@ -69,15 +80,6 @@ please adjust the CSS variable `--bg-opacity`.
 
 {style="warning"}
 
-
-
-> **Note**: If you’re using discord CDN, they expire after some time.
-> For this the background may suddenly become black, or it might start
-> blinking or shaking.
-> In such cases fetch a new link or download the image and host it
-> somewhere like GitHub.
-
-{style="note"}
 
 #### Procedure to host images on GitHub:
 
