@@ -476,7 +476,7 @@ Now the urls and links should have the default discord like styles and colors.
 {style="note"}
 
 
-### 20. How to change the Avatar Only Member list's rounder corner/border radius?
+### 20. How to change the Avatar Only Member list's rounded corner/border radius?
 
 * The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
 
