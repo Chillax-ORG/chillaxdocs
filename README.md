@@ -5,10 +5,9 @@
     <div align="center">
         <hr width="250px"/>
         <div align="center">
-            <a href="https://discord.com/invite/DrfX6286kF" target="_blank">
-                <img src="https://dcbadge.vercel.app/api/server/DrfX6286kF?theme=discord-inverted" alt="wq"/>
-            </a>
-            <br/>
+        <a href="https://discord.com/invite/DrfX6286kF" target="_blank">
+            <img src="https://img.shields.io/discord/881453188509753384?logo=discord&style=for-the-badge&logoColor=red&logoSize=auto&label=CHILLAX Support" alt="wq"/>
+        </a>
         </div>
             <a href="https://github.com/Chillax-ORG/chillaxdocs/actions/workflows/build-docs.yml" target="_blank">
                 <img src="https://github.com/Chillax-ORG/chillaxdocs/actions/workflows/build-docs.yml/badge.svg" alt="wq"/>
