@@ -301,23 +301,6 @@ However, if you've decided to make up your mind, then
 If you're **not** on a very low-end system with limited hardware acceleration support,
 the theme should work fine without any lag.
 
-However, as a last resort you can
-
-* The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
-
-* [Uncomment](https://developer.mozilla.org/en-US/docs/Web/CSS/Comments) line `41` different/or which
-  says `/*@import url("https://warrayquipsome.github.io/Chillax/Addons/SimpleLessLag.css");*/`
-  See the below screenshots:
-
-1.  <img src="lag_stuff_1.png" alt="Uncomment the shown line (CSS code)" border-effect="rounded"/>
-
-    * Uncomment this line, and it should look something like the below
-      screenshot:
-
-2.  <img src="lag_stuff_2.png" alt="Uncomment the shown line (CSS code)" border-effect="rounded"/>
-
-* This should make it a little less laggy.
-
 Consequently, you can try out [OpenAsar](https://openasar.dev/), which is part
 of the [Vencord installer](https://github.com/Vencord/Installer/issues/11).
 This should make Discord a bit more performant, reducing the lag by a bit.
