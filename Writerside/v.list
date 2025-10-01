@@ -3,5 +3,5 @@
 <vars>
     <var name="product" value="Writerside"/>
     <var name="chillax" value="CHILLAX"/>
-    <var name="current_version" value="v2.1.0"/>
+    <var name="current_version" value="v2.1.2"/>
 </vars>

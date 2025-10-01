@@ -22,6 +22,10 @@
         Updated
     </secondary-label>
 
+    <secondary-label id="discord-app-only" name="Desktop App Only" color="blue">
+        Updated
+    </secondary-label>
+
     <primary-label id="incomplete" short-name="I" name="Incomplete" color="red">
         This topic is yet to be written. PRs are always welcome :)
     </primary-label>

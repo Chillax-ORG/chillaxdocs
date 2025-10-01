@@ -26,7 +26,6 @@
 
 ### 1. How to change the background/background image of %chillax%?
 
-[//]: # (<secondary-label ref="updated"/>)
 
 The steps are first `settings`, then go to the `VENCORD` Section and then `Themes`.
 Finally, click `Edit Quick CSS` which should open the integrated
@@ -224,7 +223,7 @@ That's it.
 ### 6. How to make it so that desktop `wallpaper/wallpaper engine's` wallpaper is visible through?
 
 <primary-label ref="advanced-users-only"/>
-<secondary-label ref="newly-added"/>
+<secondary-label ref="discord-app-only"/>
 <secondary-label ref="updated"/>
 
 
@@ -296,7 +295,7 @@ That's it.
                 transparency and blur without doing
                 any of the above-mentioned steps.
                 We still we recommend that you remove
-                the background image of CHILLAX
+                the background image of %chillax%
                 for better clarity and visual appealing
                 when forcing window transparency and blur
                 natively via your respective window manager.
@@ -418,9 +417,9 @@ Steps are:
 * Now go to `Settings` > `Appearance`.
 
 * Finally, choose either Light mode or Dark mode based on your preference,
-  and Chillax will reflect that.
+  and %chillax% will reflect that.
 
-### 15. After applying the Chillax theme, it looks funny and/or transparent/see through background is missing, what to do?
+### 15. After applying the %chillax% theme, it looks funny and/or transparent/see through background is missing, what to do?
 
 Before applying the theme:
 
@@ -432,7 +431,7 @@ Before applying the theme:
 * Thirdly, `Settings` > `Appearance` is set to either **Dark** or **Light** mode.
 
 * Now apply the Latest version
-  of [Chillax](https://raw.githubusercontent.com/warrayquipsome/Chillax/main/chillax.theme.css)
+  of [%chillax%](https://raw.githubusercontent.com/warrayquipsome/Chillax/main/chillax.theme.css)
   which is currently %current_version%.
 
 * Now you should have %chillax% with the default look and feel.
