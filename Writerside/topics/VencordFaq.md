@@ -224,55 +224,71 @@ That's it.
 ### 6. How to make it so that desktop `wallpaper/wallpaper engine's` wallpaper is visible through?
 
 <primary-label ref="advanced-users-only"/>
-<secondary-label ref="experimental"/>
-<secondary-label ref="wip"/>
+<secondary-label ref="newly-added"/>
 <secondary-label ref="updated"/>
 
-> **This is currently broken on Vencord**
-
-{style="warning"}
-
-> **We recommend you to not go for that**
-
-{style="warning"}
-
-However, if you've decided to make up your mind, then
 
 * Go to <ui-path>Settings > Vencord > Enable Window Transparency</ui-path> and turn it on.
 
-* Now <ui-path> Settings > Themes > Edit Quick CSS</ui-path> and remove the `--wallpaper` CSS Variable
+* Completely restart your discord.
+
+* Now go to <ui-path> Settings > Themes > Edit Quick CSS</ui-path> and remove the `--wallpaper` CSS Variable
   mentioned in [here](#1-how-to-change-the-background-background-image-of-chillax).
 
-* Your window should now be `transparent` or `see through` etc.
+* Your window should now be `transparent` or `see through`.
 
-* Now you may want to add a bit of blur to make things readable in the `container__037ed`.
-  However, discord uses electron, and we've found it to work differently on different
-  OS, and the window manager of your OS also plays a vital role here.
-  So, the below CSS snippet may or may not work properly (*Translucence is enabled in
-  window manager level*).
-  In case it does not work, it will at least make the `container__037ed`
-  basically that region a bit darker.
 
-  ```css
-    .container_c48ade {
-        background-color: rgba(255, 255, 255, 0) !important; /* Semi-transparent white for light theme */
-        /* Or use this for dark theme: background-color: rgba(0, 0, 0, 0.1); */
-        backdrop-filter: blur(1px) !important; /*Blur the background*/
-        border-radius: 10px; /* Rounded corners */
-        /* Or use this for dark theme: border: 1px solid rgba(0, 0, 0, 0.2); */
-        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37) !important; /* Optional: Add a box shadow for depth */
-    }
-  ```
+> Note: Currently chromium (and consequently electron) does not properly
+> render `backdrop-filter` and therefore adding an additional
+> blur to the main window is **not** currently possible via CSS at the moment.
+> However, there are third party tools that
+> allow us to achieve window level blur.
 
-> **Note**: *Linux users this may be a hit or miss due to infinite number of factors
-> (Too many DEs, WMs & Display Protocols).*
-> But using WM, you can **natively add/force** translucence
-> at window level
-> (i.e., [hyprland](https://hyprland.org/),
-> [qtile](https://qtile.org/), [KWin](https://userbase.kde.org/KWin), etc.),
-> and you won't have to do any of the above-mentioned things.
+{style="warning"}
 
-{style="note"}
+
+<tabs>
+    <tab id="windows-see-through-blur" title="Windows">
+        <note>
+            Please use
+            <a href="https://github.com/MicaForEveryone/MicaForEveryone">MicaForEveryone</a>
+            which allows users to add backdrop-filter
+            to any transparent application window.
+        </note>
+    </tab>
+    <tab id="mac-os-see-through-blur" title="macOS">
+        <tip>
+        Please google. I don't use Mac, so I can't say for sure.
+        </tip>
+    </tab>
+    <tab id="linux-os-see-through-blur" title="Linux">
+        <note>
+            Please refer to your respective
+            desktop environment's or window manager's
+            documentation on how to force window level
+            blur.
+        </note>
+        <chapter title="Alternative Solution For Window Manager Users"
+                 id="alternative-solution-for-window-manager-users"/>
+        <tip>
+            <p>
+                Linux users with advanced window manager such as
+                <a href="https://hypr.land/">Hyprland</a>, <a href="https://i3wm.org/">i3</a>,
+                <a href="https://qtile.org/">qtile</a>,
+                <a href="https://dwm.suckless.org/">DWM</a>, etc.
+                can natively force window
+                transparency and blur without doing
+                any of the above-mentioned steps.
+                We still we recommend that you remove
+                the background image of CHILLAX
+                for better clarity and visual appealing
+                when forcing window transparency and blur
+                natively via your respective window manager.
+            </p>
+        </tip>
+    </tab>
+</tabs>
+
 
 
 ### 7. How to change the font of the group chat?
