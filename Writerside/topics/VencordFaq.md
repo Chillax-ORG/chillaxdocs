@@ -230,12 +230,28 @@ That's it.
 
 * Go to <ui-path>Settings > Vencord > Enable Window Transparency</ui-path> and turn it on.
 
-* Completely restart your discord.
+* Next, make sure <ui-path> Settings > Appearance </ui-path> is set to **Dark** mode if not already.
+
+* After that, Completely restart your discord.
 
 * Now go to <ui-path> Settings > Themes > Edit Quick CSS</ui-path> and remove the `--wallpaper` CSS Variable
   mentioned in [here](#1-how-to-change-the-background-background-image-of-chillax).
 
-* Your window should now be `transparent` or `see through`.
+* Afterward paste the below CSS snippet at the very bottom of your QuickCSS
+
+    ```css
+    /* transparency for base (main) window */
+    .appMount__51fd7, body, .app__160d8, .theme-dark {
+        background: transparent !important;
+    }
+
+    .user-profile-popout {
+        background-color: rgba(0, 0, 0, 0.473);
+        backdrop-filter: blur(5px); /* adjust the blur of user profile pop out */
+    }
+    ```
+
+* Your discord window should now be `transparent` or `see through`.
 
 
 > Note: Currently chromium (and consequently electron) does not properly
