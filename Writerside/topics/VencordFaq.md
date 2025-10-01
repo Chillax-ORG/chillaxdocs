@@ -71,10 +71,12 @@ please adjust the CSS variable `--bg-opacity`.
 > If you’re getting an image from the web, make sure that it is a 
 > image CDN link and **not the webpage itself**.
 > Furthermore, make sure that it is from one of the allowlisted domains
-> in Vencord (i.e., imgur, GitHub, GitLab).
+> in Vencord (i.e., imgur, GitHub, GitLab, Codeberg, etc.).
 > Best way to get the image CDN link from the web is to
 > right-click on the image and then select `Open image in new tab` option
 > from your browser.
+> This should open the image/gif a new tab.
+> Now copy the link and use it accordingly.
 > 
 
 {style="warning"}
@@ -571,10 +573,10 @@ Now those annoying tabs and such will disappear.
 
 * Find the CSS variable `--chillax-spotify-control-squid-gif-url` (_at the time of writing, the line number
 is **134** which in a later version might change_) and change the url/link
-  to your GIF that you are trying to set.
+  to your gif that you are trying to set.
 
 * After that make sure to adjust the `--chillax-spotify-control-squid-width` and
-  `--chillax-spotify-control-squid-height` accordingly if the GIF seems out of place.
+  `--chillax-spotify-control-squid-height` accordingly if the gif seems out of place.
 
 
 ## Still Have Question(s)?
