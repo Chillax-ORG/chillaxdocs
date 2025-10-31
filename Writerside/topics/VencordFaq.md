@@ -566,7 +566,7 @@ Now those annoying tabs and such will disappear.
 
 ### 25. How to change the spotify progress squid/progress bar GIF to a custom one?
 
-<secondary-label ref="newly-added"/>
+<secondary-label ref="updated"/>
 
 
 * The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
@@ -574,6 +574,12 @@ Now those annoying tabs and such will disappear.
 * Find the CSS variable `--chillax-spotify-control-squid-gif-url` (_at the time of writing, the line number
 is **134** which in a later version might change_) and change the url/link
   to your gif that you are trying to set.
+
+> Please note that the url of your gif also needs to be
+> from one of the allowed listed domain (i.e., [Imgur](https://imgur.com/), [GitHub](https://github.com/)).
+> For more details, see the [background image faq](#1-how-to-change-the-background-background-image-of-chillax).
+
+{style="warning"}
 
 * After that make sure to adjust the `--chillax-spotify-control-squid-width` and
   `--chillax-spotify-control-squid-height` accordingly if the gif seems out of place.
