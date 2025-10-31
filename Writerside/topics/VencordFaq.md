@@ -330,7 +330,7 @@ That's it.
 
 ### 8. %chillax% is laggy or slow, very slow, any fix?
 
-<secondary-label ref="updated"/>
+[//]: # (<secondary-label ref="updated"/>)
 
 * Make sure that **Hardware Acceleration** is on.
   If not, then turn it on.
@@ -463,7 +463,7 @@ Before applying the theme:
 
 ### 17. How to get back the default discord color for urls and links?
 
-<secondary-label ref="newly-added"/>
+[//]: # (<secondary-label ref="newly-added"/>)
 
 * The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
 
@@ -475,7 +475,7 @@ Now the urls and links should have the default discord like styles and colors.
 
 ### 18. How to change the color of every urls and links in discord?
 
-<secondary-label ref="newly-added"/>
+[//]: # (<secondary-label ref="newly-added"/>)
 
 * The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
 
@@ -543,7 +543,7 @@ Now the urls and links should have the default discord like styles and colors.
 {style="note"}
 
 
-### 23. How to make the `Mute` and `Headphone` icon always stay visible even when not hovering over user control?
+### 23. How to make the Mute and Headphone icon always stay visible even when not hovering over user control?
 
 <secondary-label ref="updated"/>
 
@@ -561,9 +561,9 @@ Now the urls and links should have the default discord like styles and colors.
 
 * Now the mute and headphone icon should always be visible.
 
-### 24. How to hide annoying elements such as nitro, shop, sticker picker etc. tab?
+### 24. How to hide annoying elements such as nitro, shop, sticker picker, etc. tab?
 
-<secondary-label ref="updated"/>
+[//]: # (<secondary-label ref="updated"/>)
 
 * The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
 
@@ -574,7 +574,7 @@ Now those annoying tabs and such will disappear.
 
 ### 25. How to change the spotify progress squid/progress bar GIF to a custom one?
 
-<secondary-label ref="updated"/>
+[//]: # (<secondary-label ref="updated"/>)
 
 
 * The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
