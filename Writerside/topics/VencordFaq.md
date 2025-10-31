@@ -7,22 +7,30 @@
 
 ### Before starting
 
-<p id="quick_css_blank_or_empty">
-    Before going or reading any further, make sure that you have
-    installed <format color="red">%chillax% </format>
-    following the instructions given in
-    <a href="Installation-guide.md">Installation Guide</a> for Vencord.
-    The rest of documentation is written in regards with our recommended
-    installation method.
-    However, if you are using a different method such as downloading
-    it from <a href="https://betterdiscord.app/theme/Chillax">BetterDiscord website</a>
-    and then enabling it via theme then
-    you should therefore open the theme folder
-    and then open <strong>chillax.theme.css</strong> file
-    using your preferred text editor
-    (<i>few suggestions are <a href="https://code.visualstudio.com/">VSCode</a>, Notepad, etc.</i>)
-    and edit in accordance with the below instructions.
-</p>
+Before going or reading any further, make sure that you have
+installed <format color="red">%chillax% </format>
+following the instructions given in
+<a href="Installation-guide.md">Installation Guide</a> for Vencord.
+The rest of documentation is written in regards with our recommended
+installation method.
+However, if you are using a different method such as downloading
+it from <a href="https://betterdiscord.app/theme/Chillax">BetterDiscord website</a>
+and then enabling it via theme then
+you should therefore open the theme folder
+and then open **chillax.theme.css** file
+using your preferred text editor
+(*few suggestions are <a href="https://code.visualstudio.com/">VSCode</a>, Notepad, etc.*)
+and edit in accordance with the below instructions.
+
+> If you are using a text editor,
+> make sure to save the **chillax.theme.css**
+> for it to take effect.
+> For most editors, this will be done by pressing
+> `ctrl + s` keys (i.e., *first hold
+> `ctrl` key and then press `s` key*).
+
+{style="note"}
+
 
 ### 1. How to change the background/background image of %chillax%?
 
