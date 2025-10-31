@@ -57,7 +57,7 @@ to the **wallpaper**/**gif** **cdn url** that you want to set.
 > is from [imgur](https://imgur.com/).
 > If imgur is not available in your region or the background is from
 > a different url/domain, then, please download the image and host it
-> GitHub and utilize the GitHub `raw` url.
+> on GitHub and utilize the GitHub `raw` url.
 > For the above follow this [guide](#github-image-hosting-process).
 
 {style="warning"}
