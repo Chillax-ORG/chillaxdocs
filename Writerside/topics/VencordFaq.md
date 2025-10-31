@@ -50,7 +50,7 @@ See the below-attached screenshots:
 
 Now to go to line number `50` (*at the time of writing, the line number
 is 50 which in a later version might change*) or where the variable `--wallpaper`
-defined and change the url that is within the single quote `""`
+is defined and change the url that is within the single quote `""`
 to the **wallpaper**/**gif** **cdn url** that you want to set.
 
 > Make sure that the **wallpaper's**/**gif's** **cdn url**
