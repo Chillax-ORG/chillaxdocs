@@ -94,7 +94,7 @@ please adjust the CSS variable `--bg-opacity`.
 
 <procedure title="To host image on GitHub" id="github-image-hosting-process">
    <step>
-      First create a public GitHub repository with the name of your choice.
+      First create a <b>public</b> GitHub repository with the name of your choice.
   </step>
    <step>
       Once done creating the repository, add image(s)/gif(s) via the <ui-path> Add File > Upload Files</ui-path>.
