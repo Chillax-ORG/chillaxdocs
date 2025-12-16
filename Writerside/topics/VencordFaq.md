@@ -250,7 +250,7 @@ That's it.
 
     ```css
     /* transparency for base (main) window */
-    .appMount__51fd7, body, .app__160d8, .theme-dark {
+    ._51fd70792ee2e563-appMount, body, ._160d8e55254637e5-app, .theme-dark {
         background: transparent !important;
     }
 
@@ -554,7 +554,7 @@ Now the urls and links should have the default discord like styles and colors.
 ```css
 /* Mute and Headphone icon always stays visible even when not
    hovering over user control */
-.panels__5e434 .buttons__37e49 > * {
+._5e434347c823b592-panels ._37e49614b9f110a9-buttons > * {
     opacity: 1 !important;
 }
 ```
