@@ -255,8 +255,8 @@ That's it.
     }
 
     .user-profile-popout {
-        background-color: rgba(0, 0, 0, 0.473);
-        backdrop-filter: blur(5px); /* adjust the blur of user profile pop out */
+        background-color: rgba(0, 0, 0, 0.473) !important;
+        backdrop-filter: blur(5px) !important; /* adjust the blur of user profile pop out */
     }
     ```
 
