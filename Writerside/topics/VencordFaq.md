@@ -402,7 +402,7 @@ Remove it to get back default emojis:
 * The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
 
 * **Remove** or **comment out** the line (*currently line number `35` and maybe different in your case*) containing
-  `@import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");`.
+  `@import url("https://raw.githubusercontent.com/DiscordStyles/RadialStatus/refs/heads/deploy/RadialStatus.css");`.
 
 Now, it should be similar to the default discord style with slight drop shadow around the
 transparent images.
