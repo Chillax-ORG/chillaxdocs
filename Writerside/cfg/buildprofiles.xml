@@ -22,6 +22,7 @@
     </variables>
     <build-profile instance="chillax-docs"/>
     <sitemap priority="0.35" change-frequency="weekly"/>
+    <llms-txt single-file="true"/>
     <footer>
         <social type="email" href="inmoresentum@inmoresentum.net"/>
 <!--        <social type="twitter" href=""/>-->
