@@ -11,42 +11,12 @@ Before going or reading any further, make sure that you have
 installed <format color="red">%chillax% </format>
 following the instructions given in
 <a href="Installation-guide.md">Installation Guide</a> for Vencord.
-The rest of documentation is written in regards with our recommended
-installation method.
-However, if you are using a different method such as downloading
-it from <a href="https://betterdiscord.app/theme/Chillax">BetterDiscord website</a>
-and then enabling it via theme then
-you should therefore open the theme folder
-and then open **chillax.theme.css** file
-using your preferred text editor
-(*few suggestions are <a href="https://code.visualstudio.com/">VSCode</a>, Notepad, etc.*)
-and edit in accordance with the below instructions.
-
-> If you are using a text editor,
-> make sure to save the **chillax.theme.css**
-> for it to take effect.
-> For most editors, this will be done by pressing
-> `ctrl + s` keys (i.e., *first hold
-> `ctrl` key and then press `s` key*).
-
-{style="note"}
 
 
 ### 1. How to change the background/background image of %chillax%?
 
 
-The steps are first `settings`, then go to the `VENCORD` Section and then `Themes`.
-Finally, click `Edit Quick CSS` which should open the integrated
-[Monaco](https://microsoft.github.io/monaco-editor/) (*It's already there no need
-for installation as this is part of the Vencord itself*) code editor.
-Now using this Editor, you can easily edit CSS with hot reloading.
-See the below-attached screenshots:
-
-1. <img src="go_to_settings.png" alt="How to go to Settings" border-effect="rounded"/>
-
-2. <img src="edit_quick_css.png" alt="Where to find `Edit Quick CSS`" border-effect="rounded"/>
-
-3. <img src="monaco_editor.png" alt="Monaco editor" border-effect="rounded"/>
+First, [edit the theme](Editing-the-theme-Vencord.md).
 
 Now to go to line number `50` (*at the time of writing, the line number
 is 50 which in a later version might change*) or where the variable `--wallpaper`
@@ -61,12 +31,6 @@ to the **wallpaper**/**gif** **cdn url** that you want to set.
 > For the above follow this [guide](#github-image-hosting-process).
 
 {style="warning"}
-
-> After opening the `Edit Quick CSS` it is all blank or empty?
-> Please check out the detailed [installation instructions](Installation-guide.md) on
-> how to install %chillax% the recommended way or follow [this reference](#before-starting).
-
-{style="tip"}
 
 See the below screenshots:
 
@@ -153,7 +117,7 @@ See the below screenshots:
     * Only copy the highlighted part.
       In your case, the link can be different.
 7. <img src="font_change_7.png" alt="Now paste the copied link at the very top as shown"/>
-    * Now go to <ui-path> Settings > Themes > Edit Quick CSS</ui-path>.
+    * Now [edit the theme](Editing-the-theme-Vencord.md).
     * Paste the copied link at the top just like the above screenshot and put the `;` at the end of it.
 8. <img src="font_change_8.png" alt="Change the font name"/>
     * Now change the `--font-name` to the name of the font that you have
@@ -201,7 +165,7 @@ instead, it will be
 
 ### 3. How to change the font size?
 
-* Go to <ui-path> Settings > Themes > Edit Quick CSS</ui-path>.
+* First, [edit the theme](Editing-the-theme-Vencord.md).
 
 * Find the CSS Variable `--font-size` and change it to your needs.
 
@@ -211,7 +175,7 @@ That's it.
 
 <img src="mention_stuff.png" alt="Accent color" border-effect="rounded"/>
 
-* Go to <ui-path> Settings > Themes > Edit Quick CSS</ui-path>.
+* First, [edit the theme](Editing-the-theme-Vencord.md).
 
 * Find the CSS Variables `--accentcolor`, `--accentcolor2` and change them to your needs.
 
@@ -226,7 +190,7 @@ That's it.
 
 ### 5. How to change the theme welcome username?
 
-* Go to <ui-path> Settings > Themes > Edit Quick CSS</ui-path>.
+* First, [edit the theme](Editing-the-theme-Vencord.md).
 
 * Find the CSS Variables `--user-name` and change it.
 
@@ -243,10 +207,10 @@ That's it.
 
 * After that, Completely restart your discord.
 
-* Now go to <ui-path> Settings > Themes > Edit Quick CSS</ui-path> and remove the `--wallpaper` CSS Variable
+* Now [edit the theme](Editing-the-theme-Vencord.md) and remove the `--wallpaper` CSS Variable
   mentioned in [here](#1-how-to-change-the-background-background-image-of-chillax).
 
-* Afterward paste the below CSS snippet at the very bottom of your QuickCSS
+* Afterward paste the below CSS snippet at the very bottom of the theme
 
     ```css
     /* transparency for base (main) window */
@@ -321,7 +285,7 @@ That's it.
 * We have already mentioned how you can import a custom font and
   use it [here](#2-how-to-change-use-another-font-s).
 
-* Now, the steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
+* First, [edit the theme](Editing-the-theme-Vencord.md).
 
 * After that, find the CSS variable `--group-chat-font` and provide the font name 
   that you like to use within `" "` (double quote).
@@ -352,7 +316,7 @@ This should make Discord a bit more performant, reducing the lag by a bit.
 
 This is basically an addon; to remove it:
 
-* The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
+* First, [edit the theme](Editing-the-theme-Vencord.md).
 
 * **Remove** or **comment out** the line (*currently line number `33` and maybe different in your case*) containing
   `@import url("https://warrayquipsome.github.io/Chillax/Addons/AvatarOnlyMemberList.css");`.
@@ -377,7 +341,7 @@ This is also very similar to the previous [FAQ](#9-how-to-make-the-member-list-a
 This thing is also an addon.
 Remove it to get back default emojis:
 
-* The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
+* First, [edit the theme](Editing-the-theme-Vencord.md).
 
 * **Remove** or **comment out** the line (*currently line number `29` and maybe different in your case*) containing
   `@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Microsoft.css");`.
@@ -388,7 +352,7 @@ Remove it to get back default emojis:
 
 [//]: # (<secondary-label ref="updated"/>)
 
-* The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
+* First, [edit the theme](Editing-the-theme-Vencord.md).
 
 * **Remove** or **comment out** the line (*currently line number `34` and maybe different in your case*) containing
   `@import url("https://warrayquipsome.github.io/Chillax/Addons/FolderRedesign.css");`.
@@ -399,7 +363,7 @@ Remove it to get back default emojis:
 
 [//]: # (<secondary-label ref="updated"/>)
 
-* The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
+* First, [edit the theme](Editing-the-theme-Vencord.md).
 
 * **Remove** or **comment out** the line (*currently line number `35` and maybe different in your case*) containing
   `@import url("https://raw.githubusercontent.com/DiscordStyles/RadialStatus/refs/heads/deploy/RadialStatus.css");`.
@@ -411,7 +375,7 @@ transparent images.
 
 [//]: # (<secondary-label ref="updated"/>)
 
-* The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
+* First, [edit the theme](Editing-the-theme-Vencord.md).
 
 * **Remove** or **comment out** the line (*currently line number `36` and maybe different in your case*) containing
   `@import url("https://warrayquipsome.github.io/Chillax/Addons/FriendGrid.css");`.
@@ -450,7 +414,7 @@ Before applying the theme:
 
 [//]: # (<secondary-label ref="updated"/>)
 
-* The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
+* First, [edit the theme](Editing-the-theme-Vencord.md).
 
 * Now go to the line `101` or find the line that says `--rs-phone-visible: block;` and
   change this line to the below line:
@@ -465,7 +429,7 @@ Before applying the theme:
 
 [//]: # (<secondary-label ref="newly-added"/>)
 
-* The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
+* First, [edit the theme](Editing-the-theme-Vencord.md).
 
 * **Remove** or **comment out** the line (*currently line number `37` and maybe different in your case*) containing
   `@import url("https://warrayquipsome.github.io/Chillax/Addons/ColoredLinks.css");`.
@@ -477,7 +441,7 @@ Now the urls and links should have the default discord like styles and colors.
 
 [//]: # (<secondary-label ref="newly-added"/>)
 
-* The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
+* First, [edit the theme](Editing-the-theme-Vencord.md).
 
 * Now apply the below CSS snippet, which will change the color of every
   url to the color of your choice.
@@ -490,7 +454,7 @@ Now the urls and links should have the default discord like styles and colors.
 
 ### 19. How to change the input placeholder value from "*Life is so much easier when you just take a moment to chill*" to something that I want?
 
-* The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
+* First, [edit the theme](Editing-the-theme-Vencord.md).
 
 * Now find the CSS variables `--chillax-input-field` and `--chillax-input-field-locked`.
 
@@ -504,7 +468,7 @@ Now the urls and links should have the default discord like styles and colors.
 
 ### 20. How to change the Avatar Only Member list's rounded corner/border radius?
 
-* The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
+* First, [edit the theme](Editing-the-theme-Vencord.md).
 
 * Now find the CSS variable `--memberlist-border-radius` and change the pixel as per your preference.
 
@@ -517,7 +481,7 @@ Now the urls and links should have the default discord like styles and colors.
 
 ### 21. How to change the typing indicator text?
 
-* The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
+* First, [edit the theme](Editing-the-theme-Vencord.md).
 
 * Now find the CSS variables `--chillax-input-typing-indicator-one-person` and `--chillax-input-typing-indicator-many-person`.
 
@@ -531,7 +495,7 @@ Now the urls and links should have the default discord like styles and colors.
 
 ### 22. How to get back the scroll wheel/scroller/scrollbar in %chillax%?
 
-* The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
+* First, [edit the theme](Editing-the-theme-Vencord.md).
 
 * Now find the CSS variable `--chillax-scroller-color` which is by default set to `transparent`.
 
@@ -547,7 +511,7 @@ Now the urls and links should have the default discord like styles and colors.
 
 <secondary-label ref="updated"/>
 
-* The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
+* First, [edit the theme](Editing-the-theme-Vencord.md).
 
 *  Now paste the below CSS snippet:
 
@@ -565,7 +529,7 @@ Now the urls and links should have the default discord like styles and colors.
 
 [//]: # (<secondary-label ref="updated"/>)
 
-* The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
+* First, [edit the theme](Editing-the-theme-Vencord.md).
 
 * [Uncomment](https://developer.mozilla.org/en-US/docs/Web/CSS/Comments) line `43` different/or which
   says `@import url("https://warrayquipsome.github.io/Chillax/Addons/HideAnnoyingElements.css");`.
@@ -577,7 +541,7 @@ Now those annoying tabs and such will disappear.
 [//]: # (<secondary-label ref="updated"/>)
 
 
-* The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
+* First, [edit the theme](Editing-the-theme-Vencord.md).
 
 * Find the CSS variable `--chillax-spotify-control-squid-gif-url` (_at the time of writing, the line number
 is **134** which in a later version might change_) and change the url/link
